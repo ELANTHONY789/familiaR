@@ -1,0 +1,302 @@
+@media (max-width:1250px)   {
+    *   {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* 80px */
+
+    @keyframes header {
+        0%{
+            background-image: radial-gradient(circle at -20.44% 56.16%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        10% {
+            background-image: radial-gradient(circle at -16.57% 55.82%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        20% {
+            background-image: radial-gradient(circle at -14.17% 55.61%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        30% {
+            background-image: radial-gradient(circle at -3.09% 54.64%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        50%{
+            background-image: radial-gradient(circle at 9.86% 53.51%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        90%{
+            background-image: radial-gradient(circle at 44.43% 50.49%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        91% {
+            background-image: radial-gradient(circle at 11.99% 53.33%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        92% {
+            background-image: radial-gradient(circle at 25.74% 52.12%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        93%{
+            background-image: radial-gradient(circle at 31.22% 51.64%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        94%{
+            background-image: radial-gradient(circle at 39.89% 50.88%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        100%{
+            background-image: radial-gradient(circle at 120.71% 50%, #2b67ff 0, #715bff 12.5%, #964dff 25%, #b33bff 37.5%, #ca21fb 50%, #dd00ec 62.5%, #ed00db 75%, #fa00ca 87.5%, #ff00b9 100%);   
+        }
+    }
+    body    {
+        display: grid;
+        color: white;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 92% ;
+        background-image: radial-gradient(circle at 120.71% 50%, #362941 0, #362941 50%, #362941 100%);    
+    }
+    .ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 81%;
+}
+@keyframes vidrio {
+    0%    {
+        opacity:1
+    }
+    50%      {
+        opacity: 0;
+    }
+    100%    {
+        opacity: 1;
+    }
+}
+h1  {
+    font-weight: bolder;
+    color: white;
+    font-size: 2rem;
+    padding-top: 8px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Reggae One', cursive;
+}
+a   {
+    text-decoration: none;
+    color: white;
+}
+header  {
+    background-image: radial-gradient(circle at 15.58% 109.61%, #d800ff 0, #ae01ff 25%, #820ced 50%, #5111d9 75%, #0014c5 100%);
+    text-align: center;
+    animation-timing-function: linear;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: 1;
+}
+.container-principal   {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+main    {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div {
+    margin-top: 2rem;
+    color: white;
+    width: 400px;
+    border: 5px solid white;
+    border-bottom: none;
+    border-top: none;
+    background-image: url("https://www.ambientum.com/wp-content/uploads/2019/10/via-lactea-estrellas-696x463.jpg");
+     
+}
+
+li  {
+    list-style: none;
+}
+.apellido   {
+    font-family: 'Reggae One', cursive;
+    font-family: 'Stick', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    animation-timing-function: ease-in-out;
+    animation-name: vidrio;
+    animation-duration: 2s;
+    animation-fill-mode: 1;
+}
+
+.li     {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 1.5rem;
+    padding: 10px;    
+    cursor: pointer;
+    transition: padding .5s;
+}
+.li:hover   {
+    background-image: radial-gradient(circle at 120.71% 50%, #c727ad 0, #af18b2 16.67%, #910bb7 33.33%, #6907bb 50%, #2211bf 66.67%, #001cc3 83.33%, #0024c6 100%);
+    padding: 20px;
+    text-shadow: 5px 4px 2px black;
+}
+footer  {
+    background-color: #d800ff;
+   font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+p  {
+    padding-top: .5rem;
+}
+}
+@media (min-width: 1250px)  {
+
+*   {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* 80px */
+
+    @keyframes header {
+        0%{
+            background-image: radial-gradient(circle at -20.44% 56.16%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        10% {
+            background-image: radial-gradient(circle at -16.57% 55.82%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        20% {
+            background-image: radial-gradient(circle at -14.17% 55.61%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        30% {
+            background-image: radial-gradient(circle at -3.09% 54.64%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        50%{
+            background-image: radial-gradient(circle at 9.86% 53.51%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        90%{
+            background-image: radial-gradient(circle at 44.43% 50.49%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        91% {
+            background-image: radial-gradient(circle at 11.99% 53.33%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        92% {
+            background-image: radial-gradient(circle at 25.74% 52.12%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        93%{
+            background-image: radial-gradient(circle at 31.22% 51.64%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        94%{
+            background-image: radial-gradient(circle at 39.89% 50.88%, #ff00f9 0, #ff00f5 12.5%, #e500eb 25%, #b100da 37.5%, #7800c1 50%, #3b06a6 62.5%, #000a8c 75%, #000976 87.5%, #000062 100%);
+        }
+        100%{
+            background-image: radial-gradient(circle at 120.71% 50%, #2b67ff 0, #715bff 12.5%, #964dff 25%, #b33bff 37.5%, #ca21fb 50%, #dd00ec 62.5%, #ed00db 75%, #fa00ca 87.5%, #ff00b9 100%);   
+        }
+    }
+    body    {
+        display: grid;
+        color: white;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 92% ;
+        background-image: radial-gradient(circle at 120.71% 50%, #362941 0, #362941 50%, #362941 100%);    
+    }
+    .ul  {
+    display: flex;
+    height: 81%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+@keyframes vidrio {
+    0%    {
+        opacity:1
+    }
+    50%      {
+        opacity: 0;
+    }
+    100%    {
+        opacity: 1;
+    }
+}
+h1  {
+    font-weight: bolder;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Reggae One', cursive;
+}
+a   {
+    text-decoration: none;
+    color: white;
+}
+header  {
+    background-image: radial-gradient(circle at 15.58% 109.61%, #d800ff 0, #ae01ff 25%, #820ced 50%, #5111d9 75%, #0014c5 100%);
+    text-align: center;
+    animation-timing-function: linear;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: 1;
+}
+.container-principal   {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+main    {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div {
+    margin-top: 2rem;
+    color: white;
+    width: 400px;
+    border: 5px solid white;
+    border-bottom: none;
+    border-top: none;
+    background-image: url("https://www.ambientum.com/wp-content/uploads/2019/10/via-lactea-estrellas-696x463.jpg");
+     
+}
+
+li  {
+    list-style: none;
+}
+.apellido   {
+    font-family: 'Reggae One', cursive;
+    font-family: 'Stick', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    animation-timing-function: ease-in-out;
+    animation-name: vidrio;
+    animation-duration: 2s;
+    animation-fill-mode: 1;
+}
+
+.li     {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 1.5rem;
+    padding: 10px;    
+    cursor: pointer;
+    transition: padding .5s;
+}
+.li:hover   {
+    background-image: radial-gradient(circle at 120.71% 50%, #c727ad 0, #af18b2 16.67%, #910bb7 33.33%, #6907bb 50%, #2211bf 66.67%, #001cc3 83.33%, #0024c6 100%);
+    padding: 20px;
+    text-shadow: 5px 4px 2px black;
+}
+footer  {
+    background-color: #d800ff;
+   font-size: 1.5rem;
+    text-align: center;
+}
+p  {
+    padding-top: .5rem;
+}
+}
